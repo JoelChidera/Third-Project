@@ -53,6 +53,8 @@
   body {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("./image/mac.jpg");
     border: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   section h2 {
@@ -61,7 +63,7 @@
 
   .full {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 40px;
   }
 
@@ -93,5 +95,5 @@
 
   footer p {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
   }
