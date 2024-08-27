@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  nav #header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #header h1 {
+    color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 0.8;
+  }
+
+  #header h1 span {
+    color: black;
+    font-size: 15px;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    color: red;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("./image/mac.jpg");
+    border: 20px;
+  }
+
+  section h2 {
+    color: white;
+  }
+
+  .full {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .full p {
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  span {
+    color: whitesmoke;
+  }
+
+  .red {
+    color: red;
+  }
+
+  p i {
+    color: whitesmoke;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 8, 137);
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bolder;
+  }
+
+  footer p {
+    text-align: center;
+    margin-top: 80px;
+  }
