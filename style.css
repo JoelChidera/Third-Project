@@ -1,99 +1,118 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    margin-top: 0;
-    padding: 10px;
-  }
+body {
+  height: 100vh;
+  color: #fff;
+}
 
-  nav #header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 0;
+  padding: 10px;
+}
 
-  #header h1 {
-    color: red;
-    font-family: sans-serif;
-    font-size: 20px;
-    line-height: 0.8;
-  }
+nav #header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  #header h1 span {
-    color: black;
-    font-size: 15px;
-  }
+#header h1 {
+  color: red;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 0.8;
+}
 
-  nav ul {
-    display: flex;
-    gap: 20px;
-  }
+#header h1 span {
+  color: black;
+  font-size: 15px;
+}
 
-  nav ul li {
-    list-style-type: none;
-    color: red;
-  }
+nav ul {
+  display: flex;
+  gap: 20px;
+}
 
-  a {
-    text-decoration: none;
-    color: red;
-  }
+nav ul li {
+  list-style-type: none;
+  color: red;
+}
 
-  section {
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+  color: red;
+}
 
-  body {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("./image/mac.jpg");
-    border: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+section {
+  text-align: center;
+}
 
-  section h2 {
-    color: white;
-  }
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./image/mac.jpg");
+  border: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .full {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 40px;
-  }
+section h2 {
+  color: white;
+}
 
-  .full p {
-    font-size: 20px;
-    font-family: fantasy;
-  }
-  span {
-    color: whitesmoke;
-  }
+.full {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 40px;
+}
 
-  .red {
-    color: red;
-  }
+.full p {
+  font-size: 20px;
+  font-family: fantasy;
+}
 
-  p i {
-    color: whitesmoke;
-  }
+span {
+  color: whitesmoke;
+}
 
-  button {
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color: rgb(8, 8, 137);
-    color: #fff;
-    border-radius: 15px;
-    font-weight: bolder;
-  }
+.red {
+  color: red;
+}
 
-  footer p {
-    text-align: center;
-    margin-top: 100px;
-  }
+p i {
+  color: whitesmoke;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(8, 8, 137);
+  color: #fff;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* About start */
+h1{
+  color: inherit;
+  font-size: 5cqmax;
+}
+html{
+  font-size: 20px;
+}
+.sample{
+  font-size: 12px;
+}
+/* About End */
